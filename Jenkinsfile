@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('CheckRequest') {
       steps {
-        echo 'checking'
+        echo 'checking request'
       }
     }
   }
